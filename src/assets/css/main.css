@@ -1,11 +1,11 @@
-/* @import url("fontawesome-all.min.css"); */
+@import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,400italic,700,800");
 
-/* 
+/*
 	Highlights by HTML5 UP
 	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license) */
-
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -85,7 +85,7 @@ input, select, textarea {
 	html {
 		background-color: #313a3d;
 		background-attachment: fixed,						fixed;
-		background-image: url("images/overlay.png"), url("../src/images/bg.jpg");
+		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 		background-position: top left,					center center;
 		background-repeat: repeat,						none;
 		background-size: auto,						cover;
@@ -107,13 +107,13 @@ input, select, textarea {
 		overflow: hidden;
 	}
 
-		/* html.is-touch #wrapper {
+		html.is-touch #wrapper {
 			-webkit-backface-visibility: hidden;
 			-webkit-overflow-scrolling: touch;
 			-webkit-transform: translate3d(0, 0, 0);
 			height: 100vh;
 			overflow: auto;
-		} */
+		}
 
 	body, input, select, textarea {
 		color: #6f7577;
@@ -128,7 +128,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		/* border-bottom: dotted 1px; */
+		border-bottom: dotted 1px;
 		color: #8cd1a8;
 		text-decoration: none;
 	}
@@ -212,6 +212,7 @@ input, select, textarea {
 		hr.major {
 			margin: 3em 0;
 		}
+
 	blockquote {
 		border-left: solid 6px #dddddd;
 		font-style: italic;
